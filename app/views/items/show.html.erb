@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Item:</strong>
+  <%= @item.item %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @item.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @item.price %>
+</p>
+
+<p>
+  <strong>Image url:</strong>
+  <%= @item.image_url %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @item.category %>
+</p>
+
+<p>
+  <strong>Manufacturer:</strong>
+  <%= @item.manufacturer %>
+</p>
+<% if user_signed_in? %>
+<% if current_user.admin? %>
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<% else %>
+<a href = "/cart/<%= @item.id %>">Add to cart</a> |
+<%end%>
+<%end%>
+<%= link_to 'Back', items_path %>

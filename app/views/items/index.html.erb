@@ -1,0 +1,59 @@
+# coding: UTF-8
+<p id="notice"><%= notice %></p>
+
+<script>
+function process()
+{
+var url="/" + document.getElementById("url").value;
+location.href=url;
+return false;
+}
+</script> 
+
+
+
+<div class="container">
+
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                <% if params[:cat]!=nil %>
+                  List of the <%=params[:cat] %>
+                <%else%>
+                  List of the items
+                <%end%>
+                </h1>
+            </div>
+        </div>
+        <!--  Row -->
+        <div class="row">
+          <% @items.each do |item| %>
+          <!--ITEM -->
+            <div class="col-md-4 portfolio-item">
+               
+                    <div class="img-responsive"> 
+                      <%= link_to (image_tag item.image_url, :style => "height:360px"), item%>
+                    </div>
+                <h3><%= link_to item.item+', '+number_to_currency(item.price, :unit => "€"), item %></h3>
+                <p class="description"><%= item.description %></p>
+                <% if user_signed_in? %>
+                <% if current_user.admin? %>
+                  <%= link_to 'edit', edit_item_path(item) %>
+                  <%= link_to 'destroy', item, :confirm => 'Are you sure?', :method => :delete %>
+                <% else %>
+                   <a href = "/cart/<%= item.id %>">Add to cart</a><br><br>
+                <% end %>
+                <% end %>
+            </div>
+          <!--item -->
+          <% end %>
+        </div>
+        <!-- /.row -->
+<br>
+
+<% if session[:login] == 1 %>
+<% if current_user.admin? %>
+<p><%= link_to 'New Item', new_item_path %></p>
+<% end %>
+<% end %>
