@@ -19,6 +19,8 @@ Rails.application.routes.draw do
   get 'cart/:id' => 'cart#add'
   
   get '/signedinuserprofile' => 'profiles#signedinuserprofile'
+  
+  get '/thankyou' => 'cart#thankyou'
 
   get '/:cat' =>'items#index'
   resources :items

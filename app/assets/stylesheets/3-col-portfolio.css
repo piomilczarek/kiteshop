@@ -20,3 +20,7 @@ footer {
     margin-top: 16px;
     color: #777777;
 }
+
+.portfolio-item{
+    height: 650px;
+}
