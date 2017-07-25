@@ -23,6 +23,7 @@ class ItemsController < ApplicationController
 
   # GET /items/new
   def new
+    ensure_admin
     @item = Item.new
   end
 

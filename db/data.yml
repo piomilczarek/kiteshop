@@ -1,0 +1,242 @@
+
+---
+items:
+  columns:
+  - id
+  - item
+  - description
+  - price
+  - image_url
+  - category
+  - manufacturer
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Ozon Enduro
+    - The Ozone Enduro V1 2016 is designed for the intermediate to advanced rider
+      looking for a kite that can really do it all. Any style - any conditions - the
+      Enduro v1 will have you ripping!
+    - 734
+    - ozon-enduro.jpg
+    - Kites
+    - Ozon
+    - '2017-07-18 09:28:58.275322'
+    - '2017-07-18 09:28:58.275322'
+  - - 3
+    - Slingshot RPM
+    - The RPM returns for 2017 carrying the reputation as one of the greatest kites
+      every produced. Spanning the broad spectrum of users, the RPM is capable of
+      winning multiple world titles as well as appealing to riders of all styles and
+      abilities. From beginners who want a responsive kite with easy relaunch and
+      great depower, to weekend warriors who want to boost big, to world-class competitors
+      like Youri Zoon and Carlos Mario, never before has one kite appealed to so many
+      different types of riders.
+    - 699
+    - slingshot-rpm.jpg
+    - Kites
+    - Slingshot
+    - '2017-07-18 12:41:58.732418'
+    - '2017-07-18 12:41:58.732418'
+  - - 4
+    - Cabrinha FX
+    - The 2017 Cabrinha FX kite is perfect for riders that mix hooked and unhooked
+      freestyle tricks, love huge jumps & kite loops. The Cabrinha FX 2017 fills the
+      gap between freestyle and freeride kitesurfing to create the perfect crossover
+      kite.
+    - 799
+    - cabrinha-fx.jpg
+    - Kites
+    - Cabrinha
+    - '2017-07-18 12:43:24.331506'
+    - '2017-07-18 12:43:24.331506'
+  - - 5
+    - Mistic Legend
+    - The Mystic Legend kitesurf waist harness is a one of a kind harness which combines
+      simplicity and flexibility. The revolutionary flymold and flyway give the rider
+      optimal support where needed.
+    - 199
+    - mystic-legend.jpg
+    - Harnesses
+    - Mystic
+    - '2017-07-19 19:25:12.062636'
+    - '2017-07-19 19:25:12.062636'
+  - - 6
+    - Slingshot Rally 2017 Kite
+    - For 2017 the new Rally is faster, more maneuverable, and offers better low-end
+      power making it the most efficient and user friendly kite in the world. Find
+      out for yourself why so many riders trust the Rally. The 2017 Rally boasts an
+      updated airframe featuring our own unique patented Splitstrut construction making
+      it the most stable kite in the industry. Each size is more powerful and efficient
+      than last year with a new aspect ratio.
+    - 799
+    - slingshot-rally.jpg
+    - Kites
+    - Slingshot
+    - '2017-07-25 19:41:26.787759'
+    - '2017-07-25 19:41:26.787759'
+  - - 7
+    - Ion Apex Select
+    - The 2017 Ion Apex Select kitesurf waist harness features new technology and
+      innovation to further enhance its performance. The improved Wire Tec disperses
+      direct pressure points, whilst the X Spine complements its overall function.
+      Thanks to the hidden seams the Apex Select comes in a clean look.
+    - 249
+    - ion-apex.jpg
+    - Harnesses
+    - Ion
+    - '2017-07-25 19:51:54.989179'
+    - '2017-07-25 19:51:54.989179'
+  - - 8
+    - Ion Team
+    - The 2017 Ion Team Series Wave harness is the choice for all hardcore Wave fanatics.
+      Extremly stiff preshaped Carbon plate in the center, smooth and comfy PE shapes
+      on the side and on the very top and bottom. Exactly where you need it for a
+      maximum freedom of movement combined with a perfectly spreaded load.
+    - 239
+    - ion-team.jpg
+    - Harnesses
+    - Ion
+    - '2017-07-25 19:53:56.182375'
+    - '2017-07-25 19:53:56.182375'
+  - - 9
+    - Crazyfly Allround 2017
+    - For 2017, Crazyfly have completely redesigned the Allround and also the Allround
+      bindings. If you are looking for a high quality kiteboard which performs well,
+      looks cool, and has a very attractive price tag, then the Allround is the board
+      for you.
+    - 329
+    - crazyfly.jpg
+    - Boards
+    - Crazyfly
+    - '2017-07-25 19:55:53.118734'
+    - '2017-07-25 19:55:53.118734'
+  - - 10
+    - Nobile 50/Fifty
+    - 'The 2017 Nobile 50/Fifty has been created for extreme freestyle riding and
+      is both easy to control and very dependable during landings. With the 50/Fifty
+      Nobile have achieved what their riders (who worked on the board’s construction
+      together with the Nobile engineers) really cared and waited for: the perfect
+      grip during carves and tricks, coupled with massive pop, comfort and safety
+      during landing.'
+    - 519
+    - nobile.jpg
+    - Boards
+    - Nobile
+    - '2017-07-25 19:57:43.764745'
+    - '2017-07-25 19:57:43.764745'
+  - - 11
+    - Nobile NBL
+    - The 2017 Nobile NBL is the classic, all-round Nobile board, inspired by the
+      most advanced models. It is perfect for honing your skills. It lifts-off gently,
+      carves perfectly and forgives mistakes. It has an Elliptical Concave which allows
+      the freedom of manoeuvres and boasts perfect upwind performance, as well as
+      a specially designed Hydrodynamic Rocker which guarantees spectacular pop when
+      it’s time for jumping.
+    - 339
+    - nobile2.jpg
+    - Boards
+    - Nobile
+    - '2017-07-25 19:58:49.244858'
+    - '2017-07-25 19:58:49.244858'
+
+---
+profiles:
+  columns:
+  - id
+  - firstname
+  - lastname
+  - address
+  - user_id
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Piotr
+    - Milczarek
+    - sdasd
+    - 4
+    - '2017-07-23 16:20:58.342418'
+    - '2017-07-23 16:20:58.342418'
+  - - 2
+    - Ad
+    - Go
+    - '123'
+    - 1
+    - '2017-07-25 19:20:29.371219'
+    - '2017-07-25 19:20:29.371219'
+
+---
+users:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  - admin
+  records: 
+  - - 1
+    - as@as.pl
+    - "$2a$11$XnUlpYIUTSBQ7ryGuqX.YOOKoyJl8ztoKP1ABa2mIhQhorF2muPBe"
+    - 
+    - 
+    - 
+    - 5
+    - '2017-07-25 19:27:49.360500'
+    - '2017-07-25 19:20:46.727939'
+    - 79.97.80.50
+    - 79.97.80.50
+    - '2017-07-21 23:11:32.674600'
+    - '2017-07-25 19:27:49.361824'
+    - false
+  - - 2
+    - as@asp.pl
+    - "$2a$11$JvH/X/IEmoz9s4TuDOjXruz.wjWaf7QQD.PI4/1esF.iFggEkvdfG"
+    - 
+    - 
+    - 
+    - 2
+    - '2017-07-22 19:40:49.238959'
+    - '2017-07-22 19:39:03.852859'
+    - 79.97.80.50
+    - 79.97.80.50
+    - '2017-07-22 19:39:03.811075'
+    - '2017-07-22 19:40:49.240792'
+    - false
+  - - 3
+    - admin@email.ie
+    - "$2a$11$SYQfZGJ43whPKEbfdNLN7ekFHhbIc1v1hvm4MXLHpboitZLS/vPXO"
+    - 
+    - 
+    - 
+    - 5
+    - '2017-07-25 19:48:45.398412'
+    - '2017-07-25 19:32:57.648434'
+    - 79.97.80.50
+    - 79.97.80.50
+    - '2017-07-22 19:51:17.655082'
+    - '2017-07-25 19:48:45.399465'
+    - true
+  - - 4
+    - mirz0r@gmail.com
+    - "$2a$11$b8KiCl3GhJ2kwJeviE7B9.0JCKuMGWFIBKK.qRabKkTgEHX0WklIi"
+    - 
+    - 
+    - 
+    - 13
+    - '2017-07-25 19:59:04.764806'
+    - '2017-07-24 17:33:05.493188'
+    - 155.133.27.190
+    - 193.1.209.155
+    - '2017-07-23 15:16:29.952906'
+    - '2017-07-25 19:59:04.765935'
+    - false
